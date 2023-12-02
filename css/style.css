@@ -1,0 +1,50 @@
+@import url("fonts.css");
+@import url("https://fonts.googleapis.com/css?family=Inter:400,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,regular,600,700&display=swap");
+
+@import url("reset.css");
+
+        .introduction .headline,
+.introduction  .sub-headline {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.introduction .headline {
+    font-size: 30px;
+    color: #37393F;
+}
+
+.introduction  .sub-headline {
+    color: #6B77E5;
+    font-size: 20px;
+}
+
+.introduction p {
+    font-family: "Inter", sans-serif;
+    color: #7D7D7D;
+    font-size: 18px;
+    line-height: 1.47;
+}
+
+.sub-title {
+    font-family: "Poppins", sans-serif;
+    color: #37393F;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.27; 
+}
+
+.description p {
+    font-family: "Inter", sans-serif;
+    color: #7D7D7D;
+    font-size: 18px;
+    line-height: 1.47;
+}
+
+.description .list {
+    font-family: "Inter", sans-serif;
+    color: #7D7D7D;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.47;
