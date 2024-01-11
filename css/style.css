@@ -1,10 +1,14 @@
 @import url("fonts.css");
 @import url("https://fonts.googleapis.com/css?family=Inter:400,500,600,700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,regular,600,700&display=swap");
-
+@import url("https://fonts.googleapis.com/css?family=DM+Serif+Text:regular&display=swap");
 @import url("reset.css");
 
-        .introduction .headline,
+body {
+    font-family: "Inter", sans-serif;
+    color: #474747;;
+}
+.introduction .headline,
 .introduction  .sub-headline {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
@@ -21,7 +25,6 @@
 }
 
 .introduction p {
-    font-family: "Inter", sans-serif;
     color: #7D7D7D;
     font-size: 18px;
     line-height: 1.47;
@@ -36,15 +39,51 @@
 }
 
 .description p {
-    font-family: "Inter", sans-serif;
     color: #7D7D7D;
     font-size: 18px;
     line-height: 1.47;
 }
 
 .description .list {
-    font-family: "Inter", sans-serif;
     color: #7D7D7D;
     font-size: 18px;
     font-weight: 500;
+    line-height: 1.47;}
+
+.benefits .list {
+        color: #7D7D7D;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.47;}
+
+.title-sub {
+    font-family: "Poppins", sans-serif;
+    color: #37393F;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.quote {
+    font-family: "Poppins", sans-serif;
+    color: #40DDB6;
+    font-size: 20px;
+    font-weight: 600;
+    }
+
+.jewelery__title {
+    color: #0E333D;
+    font-family: "DM Serif Text", serif;
+    font-size: 59px;
+    font-weight: 400;
     line-height: 1.47;
+}
+
+.jewelery__sub-title {
+    color: #D06B00;
+    font-size: 28px;
+}
+
+.jewelery__description {
+    color: #474747;
+    font-size: 20px;
+}
